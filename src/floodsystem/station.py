@@ -10,15 +10,13 @@ class MonitoringStation:
         self.town = town
     
     def __repr__(self):
-        print(f"""
-        Station name:   {self.name}
+        print(f"""Station name:   {self.name}
             id:             {self.stationID}
             measure id:     {self.measurementID}
             coordinate:     {self.loc}
             town:           {self.town}
             river:          {self.river}
-            typical range:  {self.typical}
-        """)
+            typical range:  {self.typical}""")
 
 
 def build_station_list(use_cache=True):
